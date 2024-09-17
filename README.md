@@ -27,3 +27,16 @@ about the current recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+---------------------------------------------------------
+
+An invariant of this fibonacci sequence could be, using a base case of [0,1], an array of [0,1,i] where i = 0 + 1.  So assuming that the function is doing the operations correctly the full invariant would be an array up to the chosen index where i is equal to the sum of the two previous entries, so for the provided index = 7 the invariant for this position would be [0,1,1,2,3,5,8].  
+
+
+
+
+
+
+
+
+
