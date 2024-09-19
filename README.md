@@ -30,7 +30,7 @@ your answer to this markdown file.
 
 ---------------------------------------------------------
 
-An invariant of this fibonacci sequence could be, using a base case of [0,1], an array of [0,1] entering the 3rd recursion, so the invariant should be the array with the values leading up to but not including the current iteration.  So assuming that the function is doing the operations correctly the full invariant would be an array up to the chosen index where i is equal to the sum of the two previous entries, so for the provided index = 7 the invariant for this position would be [0,1,1,2,3,5,8].  
+Since an invariant is to prove our function correct, an appropriate invariant would be an array containing all of the values of the fibonacci sequence up to that point, so for example fib(7) the invariant would be [0,1,1,2,3,5,8]
 
 
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice
