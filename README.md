@@ -30,7 +30,7 @@ your answer to this markdown file.
 
 ---------------------------------------------------------
 
-Since an invariant is to prove our function correct, an appropriate invariant would be an array containing all of the values of the fibonacci sequence up to but not including some index $n$ where the array is [0,1,2,. . ., n-1], so for example fib(7) the invariant would be [0,1,1,2,3,5,8] with indices of [0,1,2,3,4,5,6].
+Since an invariant is to prove our function correct, an appropriate invariant would be an array containing all of the values of the fibonacci sequence up to but not including the provided value, so for example fib(7) the invariant would be [0,1,1,2,3,5,8] with indices of [0,1,2,3,4,5,6].
 
 
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice
